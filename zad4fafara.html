@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+</head>
+<body>
+    <h1>Metody osadzania CSS</h1>
+    
+    <ol>
+        <li>
+            <h2>Zewnętrzny arkusz stylów</h2>
+           
+            <textarea rows="2" cols="50">&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</textarea>
+        </li>
+        <li>
+            <h2>Styl lokalny</h2>
+            
+            <textarea rows="2" cols="50">&lt;p style="color: red; font-weight: bold;"&gt;Tekst&lt;/p&gt;</textarea>
+        </li>
+        <li>
+            <h2>Wewnętrzny arkusz stylów</h2>
+            
+            <textarea rows="4" cols="50">&lt;style&gt;
+selector {
+    property: value;
+}
+&lt;/style&gt;</textarea>
+        </li>
+        <li>
+            <h2>Alternatywny arkusz stylów</h2>
+            
+            <textarea rows="4" cols="50">&lt;link rel="alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1"&gt;</textarea>
+        </li>
+        <li>
+            <h2>Import arkusza stylów</h2>
+            
+            <textarea rows="2" cols="50">@import url("style.css");</textarea>
+        </li>
+    </ol>
+</body>
+</html>

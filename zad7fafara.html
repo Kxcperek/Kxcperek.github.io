@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styl Lokalny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .odpowiedz {
+            font-size: smaller;
+            color: rgb(0, 0, 0);
+        }
+        .ramka {
+            border: 1px solid black;
+            padding: 10px;
+            display: inline-block;
+            white-space: pre-wrap;
+            font-family: monospace;
+            background-color: #f4f4f4;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: #f4f4f4;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h2>1. Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego?</h2>
+    <p class="odpowiedz">Styl lokalny pozwala na nadanie formatowania tylko dla konkretnego elementu HTML poprzez użycie atrybutu <code>style</code> wewnątrz znacznika. Formatowany będzie tylko ten jeden element, w którym umieszczono styl.</p>
+    
+    <h2>2. Składnia teoretyczna stylu lokalnego</h2>
+    <table>
+        <tr>
+            <td>&lt;p style=&quot;color: red;&quot;&gt;Przykładowy tekst&lt;/p&gt;</td>
+        </tr>
+    </table>
+    
+    <h2>3. Co może być selektorem?</h2>
+    <p class="odpowiedz">Selektorem w CSS może być:</p>
+    <ul class="odpowiedz">
+        <li>Nazwa znacznika (np. <code>p</code>, <code>h1</code>)</li>
+        <li>Identyfikator elementu (np. <code>#moje-id</code>)</li>
+        <li>Klasa elementu (np. <code>.moja-klasa</code>)</li>
+        <li>Atrybut (np. <code>[type="text"]</code>)</li>
+        <li>Pseudoklasa (np. <code>:hover</code>, <code>:first-child</code>)</li>
+        <li>Pseudoelement (np. <code>::before</code>, <code>::after</code>)</li>
+    </ul>
+    
+    <h2>4. Co wpisujemy jako "cechę"? Jakie jest znaczenie średników?</h2>
+    <p class="odpowiedz">Cechą jest właściwość CSS, którą chcemy zmienić, np. <code>color</code> (kolor), <code>font-size</code> (rozmiar czcionki). Średniki oddzielają poszczególne deklaracje w regule CSS i są wymagane, aby przeglądarka poprawnie interpretowała kod.</p>
+    
+    <h2>5. Co wpisujemy jako "wartość" (w deklaracji stylu)?</h2>
+    <p class="odpowiedz">Wartość to konkretna definicja ustawienia dla danej cechy, np. dla <code>color</code> wartością może być <code>red</code>, a dla <code>font-size</code> wartością może być <code>16px</code>.</p>
+</body>
+</html>

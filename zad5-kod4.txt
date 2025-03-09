@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .cos{
+        color:green;
+        font-size: 52pt;
+    }
+  </style>  
+</head>
+<body>
+    <div class="cos">Bartek Berdys<br>Programowanie obiektowe, oparte na koncepcjach takich jak enkapsulacja i dziedziczenie, umożliwia tworzenie modularnych i łatwych do utrzymania aplikacji.</div>
+</body>
+</html>

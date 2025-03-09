@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        @import url(berdys_zad15.css);
+        </style>
+</head>
+<body>
+   <p>:) usmiechniety</p>
+   :D szczesliwy
+   <p>:( smutny</p>
+   :/ zmieszany
+   <p>^-^ rozkoszony</p>
+   0-0 zaskoczony
+  
+</body>
+
+</html>
+
+
+CSS
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: rgb(51%,38%,83%);
+    background-color: #80B8E8;
+    margin: 6mm;
+    }
+   p{
+    font-size:20pt;
+    color:#70AF5F
+   }
+    

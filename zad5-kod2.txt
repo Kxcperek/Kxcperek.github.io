@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <link rel="stylesheet" href="berdys_zad52.css">
+  
+   
+
+</head>
+<body>
+    
+
+
+<p>
+    Bartosz Berdys
+</p>
+<p>
+    Informatyka to dziedzina, która nieustannie się rozwija, a sztuczna inteligencja i cyberbezpieczeństwo stają się kluczowymi obszarami przyszłości technologii.
+</p>
+
+
+
+</body>
+
+</html>
+
+
+
+p{
+    color: fuchsia;
+    font-size: 42pt;
+}

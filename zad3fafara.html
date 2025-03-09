@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cechy modyfikowania formatowania w HTML oraz CSS</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            margin: 20px 1000;
+        }
+        table, th, td {
+            border: 1px solid #000000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cechy modyfikowania formatowania w HTML oraz CSS</h1>
+
+   
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Cechy</td>
+                <td>HTML</td>
+                <td>CSS</td>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Język</td>
+                <td>Hipertekstowy język znaczników</td>
+                <td>Kaskadowe arkusze stylów</td>
+            </tr>
+            <tr>
+                <td>Główna funkcja</td>
+                <td>Struktura dokumentu</td>
+                <td>Stylizacja i formatowanie elementów</td>
+            </tr>
+            <tr>
+                <td>Formatowanie wbudowane</td>
+                <td>&lt;style&gt; w znacznikach (np. &lt;p style="color: red;"&gt;)</td>
+                <td>Osobny plik CSS lub styl w &lt;style&gt;</td>
+            </tr>
+            <tr>
+                <td>Elastyczność stylizacji</td>
+                <td>Ograniczona</td>
+                <td>Bardzo szeroka, np. animacje, układy, transformacje</td>
+            </tr>
+            <tr>
+                <td>Możliwość współdzielenia stylów</td>
+                <td>Niska – styl ograniczony do konkretnego elementu</td>
+                <td>Wysoka – ten sam styl może być stosowany dla wielu elementów</td>
+            </tr>
+            <tr>
+                <td>Separacja treści i stylu</td>
+                <td>Brak – styl zintegrowany z treścią</td>
+                <td>Styl oddzielony od struktury HTML</td>
+            </tr>
+        </body>
+    </table>
+
+    <h2>Nowe możliwości CSS w porównaniu z HTML</h2>
+    <ol>
+        <li>Pełna separacja treści i stylu – czytelniejsze i łatwiejsze zarządzanie.</li>
+        <li>Media queries – dopasowanie wyglądu strony do różnych urządzeń.</li>
+        <li>Animacje i przejścia – dodawanie dynamicznych efektów.</li>
+        <li>Grid i Flexbox – tworzenie zaawansowanych i responsywnych układów.</li>
+        <li>Zmienne CSS – ułatwienie zarządzania kolorami, rozmiarami i innymi wartościami.</li>
+        <li>Pseudoelementy i pseudoklasy – stylowanie wybranych części elementów.</li>
+        <li>Wsparcie dla niestandardowych czcionek – dzięki regule <code>@font-face</code>.</li>
+    </ol>
+
+    <h2>Wady CSS</h2>
+    <ul>
+        <li>Złożoność kodu przy dużych projektach – trudne zarządzanie stylami.</li>
+        <li>Brak izolacji stylów – style mogą wpływać na inne elementy.</li>
+        <li>Problemy z kompatybilnością – nie wszystkie przeglądarki obsługują nowe funkcje CSS.</li>
+        <li>Wydajność renderowania – zaawansowane style mogą spowolnić stronę.</li>
+    </ul>
+</body>
+</html>
